@@ -2,7 +2,7 @@
 <br>
 Figma에서 얻은 web freebie 샘플 페이지 작업<br>
 <br>
-### 사용 기술<br>
+### 사용 기술
 - HTML
 - CSS
 <br>
