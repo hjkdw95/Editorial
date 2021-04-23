@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Reset CSS */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 공통사항 */
+body {
+    background-color: #000;
+    color: #FFF;
+    padding: 0 87px;
+    font-family: 'Prata', serif;
+}
+
+a:hover {
+    color: #f2f2f2ce;
+}
+
+.main {
+    margin : 53px 0 274px 0;
+}
+
+.main-text {
+    font-size: 150px;
+    line-height: 1;
+    text-align: center;
+}
+
+.staff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+dt {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.21;
+    color: #d6d0ce9a;
+    margin-bottom: 8px;
+}
+
+dd {
+    font-size: 24px;
+    line-height: 1.21;
+    color: #D6D0CE;
+}
+
+.brand {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.brand:hover {
+    color: inherit;
+}
+
+.header {
+    margin-bottom: 234.46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #F2F2F2;
+}
+
+/*Main*/
+.main-image {
+    width: 100%;
+    margin-bottom: 93px;
+}
+
+.main .main-text {
+    position: relative;
+    bottom: -62px;
+}
+
+.staff dl {
+    margin-right: 87px;
+}
+
+.staff dl:last-child {
+    margin-right: 0;
+}
+
+/*Contents*/
+.contents-images {
+    margin-bottom: 279px;
+}
+
+.contents-image1 {
+    width: 80%;
+    margin-bottom: 92px;
+}
+
+.main-letter {
+    position: relative;
+    top: 70px;
+    z-index: 1;
+}
+
+.contents .main-text {
+    color: #d6d0ce9a;
+}
+
+.contents-image2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 200px;
+}
+
+.contents-image2 img {
+    width: 80%;    
+    z-index: 2;
+}
+
+/*bottom images*/
+.bottom-first-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom-second-image {
+    position: relative;
+    top: -295px;
+}
+
+.bottom-last-image {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -221px;
+    margin-right: 157.74px;
+}
+
+/* editorial images */
+.editorial-images {
+    margin-bottom: 655px;
+}
+
+.editorial-quote {
+    font-size: 260px;
+    text-align: center;
+    line-height: 1;
+    z-index: 0;
+}
+
+.editorial-quote .black-quote {
+    color: #000;
+    text-shadow: -1px 0 #d6d0ce9a,
+        0 1px #d6d0ce9a, 
+        1px 0 #d6d0ce9a, 
+        0 -1px #d6d0ce9a;
+}
+
+.editorial-images .slide-1{
+    float: left;
+    position: relative;
+    top: -850px;
+    left: 30%;
+    z-index: 1;
+}
+
+.slide-1 img {
+    height: 833px;
+}
+
+.editorial-images .slide-2 {
+    float: right;
+    position: relative;
+    top: -850px;
+    z-index: 1;
+    margin-right: -87px;
+}
+
+.slide-2 img {
+    height: 833px;
+}
+
+/* next project */
+.next-project .project-title {
+    float: left;
+    position: relative;
+    left: -15%;
+    font-size: 140px;
+    z-index: 1;
+}
+
+.next-image1 {
+    float: left;
+    position: relative;
+    top: -400px;
+    left: 35%;
+    z-index: -1;
+    filter: brightness(80%);
+}
+
+.next-image2 {
+    float: left;
+    position: relative;
+    top: -460px;
+    left: -15%;
+    z-index: -2;
+}
+
+.next-image3 {
+    float: left;
+    position: relative;
+    top: -320px;
+    left: 0;
+    z-index: -2;
+}
+
+
+
+
